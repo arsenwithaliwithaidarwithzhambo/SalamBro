@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;1,400&display=swap');
+
+
+
+body {
+  font-family: 'Prompt', sans-serif;
+  line-height: 1.7;
+
+
+}
+
+h1,h2,h3,h4,h5,h6,
+.display-4{
+  color: #fff;
+  font-weight:700;
+
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .logo{
+  width: 160px;
+}
+
+
+.navbar .nav-link{
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+.btn{
+  padding: 14px 18px;
+  border-width: 2px;
+  border-radius: 0;
+}
+
+.main {
+    background-image:  url(img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.main::after {
+    background-color: rgba(34,51,119,0.64);
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+/*stars*/
+
+#testimonials img {
+   width: 65px;
+   height: 65px;
+   border-radius: 100px;
+   transition: all 0.4s ease;
+}
+
+
+.container2{
+  padding-top: 100px;
+}
+
+
+
+#testimonials .nav-pills .nav-link.active {
+   background-color: transparent;
+}
+
+#testimonials .nav-pills .nav-link.active img {
+   transform: scale(1.3);
+}
+
+.review .stars {
+   color: #E93B81;
+}
+
+.review p {
+   max-width: 720px;
+   margin: 24px auto;
+   font-style: italic;
+}
+
+
+/*carousel*/
+
+.container_box{
+  padding-top: 50px;
+  width: 900px;
+  margin-left: 400px;
+}
+
+
+
+.pricing i{
+  font-size: 20px;
+  color: red
+}
+
+.pricing ul il{
+  margin-top: 8px;
+}
+
+
+.container3{
+  background-color: rgb(34,51,119);
+  padding-bottom: 100px;
+}
+
+.footer-top {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: var(--dark);
+}
+
+.footer-top a {
+    color: black;
+}
+
+.footer-top a:hover {
+    color: black;
+}
+
+.footer-bottom {
+    background-color: #242933;
+}
+
+.container5{
+  padding-top: 100px;
+}
+
+form input.form-control{
+  height: 56px;
+}
+
+
+.container4{
+  padding-top: 50px;
+}
